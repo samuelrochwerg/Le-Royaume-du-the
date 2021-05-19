@@ -1,5 +1,60 @@
-h1 {
-  color: red;
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.all {
+  max-width: 1437px;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+header {
+  background-color: #8fb900;
+  width: 100%;
+  padding: 24px 138px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFF;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+.bouton__panier {
+  border: 2px #FFF solid;
+  padding: 8px 8px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 24px 138px;
+  background-color: #8fb900;
+  width: 100%;
+  color: #FFF;
+}
+
+.footer__liens {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer__liens h2 {
+  margin-right: 12px;
 }
 
 /*# sourceMappingURL=style.css.map */

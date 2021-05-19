@@ -1,0 +1,21 @@
+header {
+    background-color: #8fb900;
+    width: 100%;
+    padding: 24px 138px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.bouton__panier {
+    border: 2px #FFF solid;
+    padding: 8px 8px;
+}

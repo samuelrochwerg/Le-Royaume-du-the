@@ -1,0 +1,18 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px 138px;
+    background-color: #8fb900;
+    width: 100%;
+    color: #FFF;
+}
+        
+.footer__liens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+        h2 {
+            margin-right: 12px;
+        }
+}

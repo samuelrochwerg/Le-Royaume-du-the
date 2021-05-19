@@ -1,0 +1,19 @@
+{
+  "name": "le-royaume_du_the",
+  "version": "1.0.0",
+  "description": "Le royaume_du_thé",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelrochwerg/Le-royaume_du_th-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuelrochwerg/Le-royaume_du_th-/issues"
+  },
+  "homepage": "https://github.com/samuelrochwerg/Le-royaume_du_th-#readme"
+}

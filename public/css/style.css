@@ -17,6 +17,19 @@ a:hover {
   color: blue;
 }
 
+.section__banniere {
+  padding: 73px 136px;
+  text-align: center;
+}
+
+.selection__the {
+  width: 275px;
+  border: 1px solid #b90032;
+}
+.selection__the h3 {
+  color: #b90032;
+}
+
 header {
   background-color: #8fb900;
   width: 100%;

@@ -17,17 +17,70 @@ a:hover {
   color: blue;
 }
 
+section {
+  padding: 24px 138px;
+}
+
 .section__banniere {
   padding: 73px 136px;
   text-align: center;
 }
 
+.titre__the {
+  margin-bottom: 6px;
+}
+
 .selection__the {
   width: 275px;
   border: 1px solid #b90032;
+  padding-bottom: 14px;
+  margin: 5px 5px;
+}
+.selection__the h4 {
+  color: #b90032;
+  font-weight: bold;
+  margin-bottom: 8px;
 }
 .selection__the h3 {
-  color: #b90032;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.selection__the p {
+  margin-bottom: 8px;
+}
+.selection__the__contenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 8px;
+}
+
+.bouton__voir {
+  padding: 16px 62px;
+  background-color: #b90032;
+  margin: 0 5px;
+}
+
+.categorie__the {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.section__notreentreprise {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.section__notreentreprise__image {
+  margin-right: 10px;
+}
+.section__notreentreprise__texte h3 {
+  margin-bottom: 8px;
+}
+.section__notreentreprise__texte p {
+  margin-bottom: 8px;
 }
 
 header {

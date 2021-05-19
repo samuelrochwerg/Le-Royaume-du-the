@@ -2,10 +2,61 @@
     padding: 73px 136px;
     text-align: center;
 }
+
+.titre__the {
+    margin-bottom: 6px;
+}
 .selection__the {
     width: 275px;
     border: 1px solid #b90032;
-        h3 {
+    padding-bottom: 14px;
+    margin: 5px 5px;
+        h4 {
             color: #b90032;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        h3 {
+            color: white;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        p {
+            margin-bottom: 8px;
+        }
+    &__contenu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 8px;
+    }
+}
+
+.bouton__voir {
+    padding: 16px 62px;
+    background-color: #b90032;
+    margin: 0 5px;
+}
+
+.categorie__the {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section__notreentreprise {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+        &__image {
+            margin-right: 10px;
+        }
+        &__texte {
+                h3 {
+                    margin-bottom: 8px;
+                }
+                p {
+                    margin-bottom: 8px;
+                }
         }
 }

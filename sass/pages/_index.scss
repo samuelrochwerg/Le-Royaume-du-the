@@ -94,6 +94,16 @@
         }
 }
 
+@media only screen and (max-width: 850px) {
+    .selection__the {
+        margin: auto auto;
+        margin-bottom: 20px;
+    }
+    .titre__the {
+        text-align: center;
+    }
+}
+
 @media only screen and (max-width: 650px) {
     .section__notreentreprise {
         flex-direction: column;

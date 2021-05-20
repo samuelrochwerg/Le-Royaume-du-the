@@ -93,3 +93,9 @@
                 }
         }
 }
+
+@media only screen and (max-width: 650px) {
+    .section__notreentreprise {
+        flex-direction: column;
+}
+}

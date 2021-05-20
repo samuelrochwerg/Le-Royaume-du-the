@@ -121,6 +121,11 @@ section {
   margin-bottom: 8px;
 }
 
+@media only screen and (max-width: 650px) {
+  .section__notreentreprise {
+    flex-direction: column;
+  }
+}
 header {
   background-color: #8fb900;
   max-width: 1440px;

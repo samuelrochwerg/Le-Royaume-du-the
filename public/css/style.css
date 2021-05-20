@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+p {
+  font-size: 18px;
+}
+
 .all {
   max-width: 1440px;
 }
@@ -127,6 +131,10 @@ section {
     margin-bottom: 20px;
   }
 
+  .categorie__the {
+    margin: auto auto;
+  }
+
   .titre__the {
     text-align: center;
   }
@@ -139,6 +147,7 @@ section {
 header {
   background-color: #8fb900;
   max-width: 1440px;
+  min-width: 320px;
   padding: 24px 138px;
 }
 
@@ -169,6 +178,7 @@ footer {
   padding: 24px 138px;
   background-color: #8fb900;
   max-width: 1440px;
+  min-width: 320px;
   color: #FFF;
 }
 @media only screen and (max-width: 425px) {
@@ -189,6 +199,10 @@ footer {
 }
 .footer__liens h2 {
   margin-right: 12px;
+}
+
+footer h2 {
+  margin-right: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */

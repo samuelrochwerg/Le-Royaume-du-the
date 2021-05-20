@@ -4,9 +4,16 @@
 }
 
 .all {
-  max-width: 1437px;
+  max-width: 1440px;
 }
 
+@media only screen and (min-width: 1440px) {
+  .all {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 a {
   text-decoration: none;
   color: #FFF;
@@ -24,6 +31,11 @@ section {
 .section__banniere {
   padding: 73px 136px;
   text-align: center;
+  margin: 0 auto;
+}
+
+.image__the, .image__notreentreprise {
+  width: 100%;
 }
 
 .titre__the {
@@ -56,6 +68,13 @@ section {
   padding: 0 8px;
 }
 
+@media only screen and (max-width: 1440px) {
+  .categorie__the {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
 .selection__the__image {
   position: relative;
 }
@@ -104,8 +123,7 @@ section {
 
 header {
   background-color: #8fb900;
-  width: 100%;
-  max-width: 1500px;
+  max-width: 1440px;
   padding: 24px 138px;
 }
 
@@ -117,6 +135,11 @@ header {
   color: #FFF;
   font-weight: bold;
   font-family: "Roboto", sans-serif;
+}
+@media only screen and (max-width: 425px) {
+  .header {
+    flex-direction: column;
+  }
 }
 
 .bouton__panier {
@@ -130,14 +153,24 @@ footer {
   justify-content: space-between;
   padding: 24px 138px;
   background-color: #8fb900;
-  width: 100%;
+  max-width: 1440px;
   color: #FFF;
+}
+@media only screen and (max-width: 425px) {
+  footer {
+    flex-direction: column;
+  }
 }
 
 .footer__liens {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+@media only screen and (max-width: 425px) {
+  .footer__liens {
+    flex-direction: column;
+  }
 }
 .footer__liens h2 {
   margin-right: 12px;

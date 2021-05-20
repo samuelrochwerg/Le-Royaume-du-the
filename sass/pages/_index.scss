@@ -1,6 +1,11 @@
 .section__banniere {
     padding: 73px 136px;
     text-align: center;
+    margin: 0 auto;
+}
+
+.image__the, .image__notreentreprise {
+    width: 100%;
 }
 
 .titre__the {
@@ -29,6 +34,14 @@
         flex-direction: column;
         justify-content: center;
         padding: 0 8px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .categorie__the {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }
 

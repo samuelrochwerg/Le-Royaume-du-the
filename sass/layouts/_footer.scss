@@ -4,14 +4,20 @@ footer {
     justify-content: space-between;
     padding: 24px 138px;
     background-color: #8fb900;
-    width: 100%;
+    max-width: 1440px;
     color: #FFF;
+        @media only screen and (max-width: 425px) {
+            flex-direction: column;
+        }
 }
         
 .footer__liens {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+        @media only screen and (max-width: 425px) {
+            flex-direction: column;
+        }
         h2 {
             margin-right: 12px;
         }

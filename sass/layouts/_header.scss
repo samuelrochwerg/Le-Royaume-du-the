@@ -1,7 +1,6 @@
 header {
     background-color: #8fb900;
-    width: 100%;
-    max-width: 1500px;
+    max-width: 1440px;
     padding: 24px 138px;
 }
 
@@ -13,6 +12,9 @@ header {
     color: #FFF;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
+        @media only screen and (max-width: 425px) {
+            flex-direction: column;
+        }
 
 }
 
@@ -20,3 +22,4 @@ header {
     border: 2px #FFF solid;
     padding: 8px 8px;
 }
+

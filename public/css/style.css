@@ -40,6 +40,7 @@ section {
 
 .image__the, .image__notreentreprise {
   width: 100%;
+  min-width: 300px;
 }
 
 .titre__the {
@@ -152,6 +153,9 @@ header {
   max-width: 1440px;
   min-width: 320px;
   padding: 24px 138px;
+}
+header h1 {
+  margin-bottom: 10px;
 }
 
 .header {
